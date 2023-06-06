@@ -18,6 +18,9 @@ album_repository.save(album_1)
 # artist_repository.delete_all()
 
 # pdb.set_trace()
-artist_list = artist_repository.select_all()
-album_list = album_repository.select_all()
+artists = artist_repository.select_all()
+albums = album_repository.select_all()
 
+# pdb.set_trace()
+album_id = album_repository.select(album_1.id)
+artist_id = artist_repository.select(artist_1.id)
