@@ -22,5 +22,5 @@ artists = artist_repository.select_all()
 albums = album_repository.select_all()
 
 # pdb.set_trace()
-album_id = album_repository.select(album_1.id)
-artist_id = artist_repository.select(artist_1.id)
+album_id = album_repository.select(albums[0]).id
+artist_id = artist_repository.select(artists[0]).id
