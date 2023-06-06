@@ -16,3 +16,8 @@ album_repository.save(album_1)
 # pdb.set_trace()
 # album_repository.delete_all()
 # artist_repository.delete_all()
+
+# pdb.set_trace()
+artist_list = artist_repository.select_all()
+album_list = album_repository.select_all()
+
